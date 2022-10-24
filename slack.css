@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+*,
+*::before
+*::after
+html{
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1em rgba(0, 0, 0,0.15);
+    margin-bottom: 1em;
+}
+.logo{
+    color: green;
+    margin-left: 0.40em;
+}
+.navlink, a{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.15em .35em;
+    font-size: .60rem;
+    margin-top: .35em;
+
+}
+ a:hover{
+background-color: grey;
+}
+.intro-content{
+    padding: .40em;
+}
+.intro-body{
+    padding: 2em 1em;
+}
+.body_text{
+    padding: 1em 1em;
+    font-size: 1.3rem;
+}
+.title{
+    font-size: 2.4rem;
+    padding:0 .50em 0 .50em ;
+}
+button{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.36em;
+    color: white;
+    background-color: blue;
+
+
+}
+/* .images{
+background-color: aquamarine;
+} */
+
+.btn-link{
+    font-size: 1.2rem;
+    text-decoration: underline solid ;
+}
+.btn{
+    padding: 0.80em;
+}
+.section_btn{
+    padding: 0.40em;
+    margin: 1em 0 1em 0;
+}
+.section-body{
+    padding: 2em 1em;
+    font-size: 1.3rem;
+}
+
+#last-section-img{
+    width: 90%;
+}
+
+.last-section{
+    padding: 2em 1em; 
+background-color: rgb(210, 193, 193);
+   
+}
+@media only screen and (min-width: 700px) {
+.header{
+    padding: 1em 0 1em 0;
+}
+.logo{
+    font-size: 3rem;
+    margin-left: 1em;
+}
+.navlink, a{
+    font-size: 1.3rem;
+}
+.intro{
+    display: flex;
+flex-direction: row-reverse;
+    flex: 0 1 50%
+}
+ #pic{
+   width: 100%;
+}
+.intro-body{
+    max-width: 50%;
+    text-align: left;
+}
+.images{
+    width: 40%;
+}
+button, .SMALL{
+    width: 50%;
+    margin-left: 1em;
+    margin-top: 0.70em;
+}
+ .body-text{
+    max-width: 70%;
+    margin: auto;
+    /* text-align: center; */
+} 
+.section_btn{
+    margin-top: 2em;
+    width: 30%;
+    
+}
+    
+/* #last-section-img{
+    width: 90%;
+} */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 8rem;
+    margin: 2rem;
+}
+#pic{
+    margin-top: 2em;
+}
+.diff{
+    width: 30px;
+}
+}
